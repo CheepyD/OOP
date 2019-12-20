@@ -1,6 +1,11 @@
 package ua.khpi.oop.hulevych08;
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -133,6 +138,24 @@ public class Helper {
 			temp.add(tempp);
 		}
 		return temp;
+	}
+	
+	static void encoder(ArrayList<Agency> agencies) throws FileNotFoundException {
+		XMLEncoder encoder = new XMLEncoder(
+				new BufferedOutputStream(
+						new FileOutputStream(directory())));
+			encoder.writeObject(agencies);
+			encoder.writeObject(agencies.get(0).getReqs());
+		encoder.close(); 
+	}
+	static ArrayList<Agency> decoder() throws FileNotFoundException {
+		XMLDecoder decoder = new XMLDecoder(
+				new BufferedInputStream(
+						new FileInputStream(directory())));
+		@SuppressWarnings("unchecked")
+		ArrayList<Agency> agency =  (ArrayList<Agency>) decoder.readObject();
+		decoder.close();
+		return agency; 
 	}
 	
 	static String directory() {

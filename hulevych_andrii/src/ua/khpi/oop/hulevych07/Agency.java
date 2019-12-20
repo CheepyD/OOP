@@ -57,7 +57,7 @@ public class Agency{
 			this.education = education;
 		}
 		public void print() {
-			System.out.printf("Опыт работы :  %d \n Образование : %s", this.yexp, this.education);
+			System.out.printf("РћРїС‹С‚ СЂР°Р±РѕС‚С‹ :  %d \n РћР±СЂР°Р·РѕРІР°РЅРёРµ : %s", this.yexp, this.education);
 			System.out.println("");
 		}
 		}
@@ -70,13 +70,13 @@ public class Agency{
 		}
 		else return;
 	}
-
+	
 	public void print() {
-		System.out.println("Информация об этой должности:");
-		System.out.printf("Название фирмы : %s \nДолжность : %s \nУсловия работы: %s \nЗарплата : %d \n", this.firmName, this.position, this.circs, this.salary);
-		System.out.println("Требование следующие: ");
+		System.out.println("РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СЌС‚РѕР№ С„РёСЂРјРµ:");
+		System.out.printf("РќР°Р·РІР°РЅРёРµ С„РёСЂРјС‹ : %s \nР”РѕР»Р¶РЅРѕСЃС‚СЊ : %s \nРЈСЃР»РѕРІРёСЏ СЂР°Р±РѕС‚С‹: %s \nР—Р°СЂРїР»Р°С‚Р° : %d \n", this.firmName, this.position, this.circs, this.salary);
+		System.out.println("Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ: ");
 		if(this.key) { this.reqs.print();}
-		else { System.out.printf("Без опыта работы \nСреднее образование \n");
+		else { System.out.printf("Р‘РµР· РѕРїС‹С‚Р° СЂР°Р±РѕС‚С‹ \nРћР±С‹С‡РЅРѕРµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ \n");
 		}
 	}
 }

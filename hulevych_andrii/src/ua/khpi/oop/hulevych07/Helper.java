@@ -6,7 +6,7 @@ public class Helper {
     public static void lets_go() {
     	System.setProperty("console.encoding","Cp866");
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Введите размер массива:");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°:");
 		int arraySize = sc.nextInt();
     	Agency[] agencies = new Agency[arraySize];
     	for(int i = 0; i < agencies.length; i++) {
@@ -24,47 +24,47 @@ public class Helper {
 
 	public static String enterFirmName() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Имя фирмы : ");
+		System.out.print("РќР°Р·РІРёРЅРёРµ С„РёСЂРјС‹ : ");
 		String firmName = sc.nextLine();
 		return firmName;
 	}
 	public static String enterPosition() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Должность : ");
+		System.out.print("Р”РѕР»Р¶РЅРѕСЃС‚СЊ: ");
 		String position = sc.nextLine();
 		return position;
 	}
 	public static String enterCircs() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Условия работы : ");
+		System.out.print("РЈСЃР»РѕРІРёСЏ СЂР°Р±РѕС‚С‹ : ");
 		String circs = sc.nextLine();
 		return circs;
 	}
 	
 	public static int enterSalary() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Зарплата : ");
+		System.out.print("Р—Р°СЂРїР»Р°С‚Р° : ");
 		int salary = sc.nextInt();
 		return salary;
 	}
 	
 	public static boolean enterKey() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Есть ли дополнительные требования?");
+		System.out.println("Р•СЃС‚СЊ Р»Рё РєР°РєРёРµ-С‚Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ?");
 		boolean choice = sc.nextBoolean();
 		return choice;
 	}
 	
 	public static int enterExperience() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Опыт работы : ");
+		System.out.print("РћРїС‹С‚ СЂР°Р±РѕС‚С‹ : ");
 		int exp = sc.nextInt();
 		return exp;
 	}
 	
 	public static String enterEducation() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Уровень образования : ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ : ");
 		String educ = sc.nextLine();
 		return educ;
 	}

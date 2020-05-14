@@ -1,0 +1,15 @@
+janitor
+teacher
+programmer
+doctor
+designer
+painter
+wiper
+yardman
+accountant
+buider
+cashier
+cook
+driver
+engineer
+----

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="162.0" prefWidth="725.0" style="-fx-background-color: #002A32;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.mishchenko16.SaveController">
+   <children>
+      <TextField fx:id="directoryField" layoutX="14.0" layoutY="43.0" prefHeight="35.0" prefWidth="562.0" />
+      <Button fx:id="chooseButton" layoutX="601.0" layoutY="43.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: lime;" text="Choose path" />
+      <TextField fx:id="filenameField" layoutX="14.0" layoutY="105.0" prefHeight="35.0" prefWidth="562.0" />
+      <Button fx:id="saveButton" layoutX="601.0" layoutY="105.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: lime;" text="Save" />
+      <Label layoutX="286.0" prefHeight="29.0" prefWidth="153.0" text="  Save XML document" textFill="#09ff00">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

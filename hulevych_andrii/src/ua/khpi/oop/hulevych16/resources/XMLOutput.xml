@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-03-17</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>ua.khpi.oop.mishchenko09.model.ClassOfRoom</class>
+      <string>DEFAULT</string>
+     </object>
+    </void>
+    <void property="countOfPlaces">
+     <int>1</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>101</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1990-04-23</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Marjiana</string>
+    </void>
+    <void property="passportId">
+     <string>325413875</string>
+    </void>
+    <void property="patronymic">
+     <string>Ivanovna</string>
+    </void>
+    <void property="surname">
+     <string>Tkachenko</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-03-10</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList0">
+    <void method="add">
+     <string>emergency business trip to Kyiv</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList0"/>
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-04-04</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object class="java.lang.Enum" id="ClassOfRoom0" method="valueOf">
+      <class>ua.khpi.oop.mishchenko09.model.ClassOfRoom</class>
+      <string>ECONOM</string>
+     </object>
+    </void>
+    <void property="countOfPlaces">
+     <int>2</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>102</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1986-06-06</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Viktor</string>
+    </void>
+    <void property="passportId">
+     <string>EE231690</string>
+    </void>
+    <void property="patronymic">
+     <string>Vladimirovich</string>
+    </void>
+    <void property="surname">
+     <string>Stepanov</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-03-30</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList1">
+    <void method="add">
+     <string>travelling</string>
+    </void>
+    <void method="add">
+     <string>business meeting</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList1"/>
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-05-10</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object class="java.lang.Enum" id="ClassOfRoom1" method="valueOf">
+      <class>ua.khpi.oop.mishchenko09.model.ClassOfRoom</class>
+      <string>LUX</string>
+     </object>
+    </void>
+    <void property="countOfPlaces">
+     <int>4</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>103</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1995-12-10</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Alexandr</string>
+    </void>
+    <void property="passportId">
+     <string>987123567</string>
+    </void>
+    <void property="patronymic">
+     <string>Sergeevich</string>
+    </void>
+    <void property="surname">
+     <string>Morozov</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-04-20</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList2">
+    <void method="add">
+     <string>travelling</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList2"/>
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-04-10</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object idref="ClassOfRoom0"/>
+    </void>
+    <void property="countOfPlaces">
+     <int>1</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>104</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1988-11-27</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Ivan</string>
+    </void>
+    <void property="passportId">
+     <string>AE099295</string>
+    </void>
+    <void property="patronymic">
+     <string>Andreevich</string>
+    </void>
+    <void property="surname">
+     <string>Pavlenko</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-02-11</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList3">
+    <void method="add">
+     <string>hiding from wife</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList3"/>
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-05-15</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object idref="ClassOfRoom1"/>
+    </void>
+    <void property="countOfPlaces">
+     <int>2</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>201</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1993-05-30</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Artem</string>
+    </void>
+    <void property="passportId">
+     <string>555666777</string>
+    </void>
+    <void property="patronymic">
+     <string>Denisovich</string>
+    </void>
+    <void property="surname">
+     <string>Gromov</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-05-10</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList4">
+    <void method="add">
+     <string>Business meeting</string>
+    </void>
+    <void method="add">
+     <string>business trip</string>
+    </void>
+    <void method="add">
+     <string>travelling</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList4"/>
+ <object class="ua.khpi.oop.mishchenko09.model.HotelBooking">
+  <void property="evictionDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-03-20</string>
+   </object>
+  </void>
+  <void property="hotelRoom">
+   <object class="ua.khpi.oop.mishchenko09.model.HotelRoom">
+    <void property="classOfRoom">
+     <object idref="ClassOfRoom1"/>
+    </void>
+    <void property="countOfPlaces">
+     <int>3</int>
+    </void>
+    <void property="numberOfRoom">
+     <int>106</int>
+    </void>
+   </object>
+  </void>
+  <void property="person">
+   <object class="ua.khpi.oop.mishchenko09.model.Person">
+    <void property="dayOfBirth">
+     <object class="java.time.LocalDate" method="parse">
+      <string>1990-01-22</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Elena</string>
+    </void>
+    <void property="passportId">
+     <string>719967555</string>
+    </void>
+    <void property="patronymic">
+     <string>Anatolievna</string>
+    </void>
+    <void property="surname">
+     <string>Voitenko</string>
+    </void>
+   </object>
+  </void>
+  <void property="settlementDate">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2020-03-13</string>
+   </object>
+  </void>
+  <void property="settlementReasons">
+   <object class="java.util.ArrayList" id="ArrayList5">
+    <void method="add">
+     <string>travelling</string>
+    </void>
+    <void method="add">
+     <string>meeting</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object idref="ArrayList5"/>
+</java>
